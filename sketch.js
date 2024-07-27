@@ -10,7 +10,7 @@ let holdTime = 1000;
 let delayTime = 3000;
 let elapsedTime = 0;
 let balloonCount = 0;
-let maxBalloonCount = 25;
+let maxBalloonCount = 0;
 let balloonIcons = [];
 let phase = 'intro'; 
 let button;
@@ -168,8 +168,7 @@ function drawEndScreen() {
     endButton.style('font-size', '36px'); 
     //endButton.style('padding', '5px');
     endButton.mousePressed(() => {
-      window.open('https://xiaotian0722.github.io/Boat/', '_blank');
-      window.close();
+      window.location.href ='https://xiaotian0722.github.io/Boat/';
     });
   }
 }
