@@ -10,7 +10,7 @@ let holdTime = 1000;
 let delayTime = 3000;
 let elapsedTime = 0;
 let balloonCount = 0;
-let maxBalloonCount = 2;
+let maxBalloonCount = 25;
 let balloonIcons = [];
 let phase = 'intro'; 
 let button;
