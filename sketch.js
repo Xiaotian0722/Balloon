@@ -168,7 +168,7 @@ function drawEndScreen() {
     endButton.style('font-size', '36px'); 
     //endButton.style('padding', '5px');
     endButton.mousePressed(() => {
-      window.open('https://drive.google.com/drive/shared-with-me', '_blank');
+      window.open('https://xiaotian0722.github.io/Boat/', '_blank');
       window.close();
     });
   }
