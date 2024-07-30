@@ -4,13 +4,13 @@ let characterImg;
 let infoImg;
 let endImg;
 let maxBalloonSize = 300;
-let inhaleTime = 4000;
+let inhaleTime = 3000;
 let exhaleTime = 4000;
 let holdTime = 1000;
 let delayTime = 3000;
 let elapsedTime = 0;
 let balloonCount = 0;
-let maxBalloonCount = 20;
+let maxBalloonCount = 25;
 let balloonIcons = [];
 let phase = 'intro'; 
 let button;
@@ -134,7 +134,7 @@ function drawIntro() {
   textAlign(CENTER, CENTER);
   text("Help Embarrassment prepare balloons for the party💗💗", windowWidth / 2, windowHeight / 4);
   text("All you need to do is:", windowWidth / 2, windowHeight / 4 + 100);
-  text("Follow the inflation of the yellow balloon to blow up 20 🎈.", windowWidth / 2, windowHeight / 4 + 200);
+  text("Follow the inflation of the yellow balloon to blow up 25 🎈.", windowWidth / 2, windowHeight / 4 + 200);
   image(infoImg, windowWidth / 2 + 50, windowHeight / 2 + 100, 120, 150);
 }
 
