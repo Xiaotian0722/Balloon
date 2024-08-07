@@ -121,9 +121,9 @@ function draw() {
     textSize(32);
     fill(255, 0, 0);
     if (phase === 'inhale' || phase === 'holdInhale') {
-      text('Inhale', windowWidth / 2 - 250, windowHeight / 2 - 50);
+      text('Exhale or Inhale with the balloon', windowWidth / 2 - 250, windowHeight / 2 - 50);
     } else if (phase === 'exhale' || phase === 'holdExhale') {
-      text('Exhale', windowWidth / 2 - 250, windowHeight / 2 - 50);
+      text('Exhale or Inhale with the balloon', windowWidth / 2 - 250, windowHeight / 2 - 50);
     }
   }
 }
