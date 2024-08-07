@@ -121,9 +121,9 @@ function draw() {
     textSize(32);
     fill(255, 0, 0);
     if (phase === 'inhale' || phase === 'holdInhale') {
-      text('Exhale or Inhale with the balloon', windowWidth / 2 - 250, windowHeight / 2 - 50);
+      text('Exhale or Inhale with the balloon', windowWidth / 2 - 400, windowHeight / 2 - 50);
     } else if (phase === 'exhale' || phase === 'holdExhale') {
-      text('Exhale or Inhale with the balloon', windowWidth / 2 - 250, windowHeight / 2 - 50);
+      text('Exhale or Inhale with the balloon', windowWidth / 2 - 400, windowHeight / 2 - 50);
     }
   }
 }
@@ -132,7 +132,7 @@ function drawIntro() {
   textSize(24);
   fill(0);
   textAlign(CENTER, CENTER);
-  text("Help Embarrassment prepare balloons for the party💗💗", windowWidth / 2, windowHeight / 4);
+  text("Help Ele prepare balloons for the party💗💗", windowWidth / 2, windowHeight / 4);
   text("All you need to do is:", windowWidth / 2, windowHeight / 4 + 100);
   text("Follow the inflation of the yellow balloon to blow up 30 🎈.", windowWidth / 2, windowHeight / 4 + 200);
   image(infoImg, windowWidth / 2 + 50, windowHeight / 2 + 100, 120, 150);
@@ -150,7 +150,7 @@ function drawCharacter() {
   if (phase === 'inhale' || phase === 'exhale') {
     breath = sin(frameCount * 0.05) * 5;
   }
-  image(characterImg, windowWidth / 2 - 360, windowHeight / 2 - breath - 10, 200, 300);
+  image(characterImg, windowWidth / 2 - 360, windowHeight / 2 - breath - 10, 200, 200);
 }
 
 function drawEndScreen() {
@@ -159,7 +159,7 @@ function drawEndScreen() {
   textSize(24);
   fill(0);
   textAlign(CENTER, CENTER);
-  text("Embarrassment really appreciates your help!", windowWidth / 2, windowHeight / 2 + 100);
+  text("Ele really appreciates your help!", windowWidth / 2, windowHeight / 2 + 100);
   text("Let's meet all the friends near the boat.", windowWidth / 2, windowHeight / 2 + 130);
   
   if (!endButton) {
