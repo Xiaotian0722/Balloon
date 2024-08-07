@@ -135,7 +135,7 @@ function drawIntro() {
   text("Help Ele prepare balloons for the party💗💗", windowWidth / 2, windowHeight / 4);
   text("All you need to do is:", windowWidth / 2, windowHeight / 4 + 100);
   text("Follow the inflation of the yellow balloon to blow up 30 🎈.", windowWidth / 2, windowHeight / 4 + 200);
-  image(infoImg, windowWidth / 2 + 50, windowHeight / 2 + 100, 120, 150);
+  image(infoImg, windowWidth / 2 + 50, windowHeight / 2 + 100, 150, 150);
 }
 
 function start() {
